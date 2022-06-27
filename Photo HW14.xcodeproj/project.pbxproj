@@ -64,9 +64,9 @@
 		BF625D93286A29F9008BDE68 /* Photo HW14 */ = {
 			isa = PBXGroup;
 			children = (
-				BF625DAA286A2D2C008BDE68 /* Controller */,
-				BF625DA9286A2D26008BDE68 /* View */,
 				BF625DA8286A2D1E008BDE68 /* Model */,
+				BF625DA9286A2D26008BDE68 /* View */,
+				BF625DAA286A2D2C008BDE68 /* Controller */,
 				BF625D9A286A29F9008BDE68 /* Main.storyboard */,
 				BF625D9D286A29FE008BDE68 /* Assets.xcassets */,
 				BF625D9F286A29FE008BDE68 /* LaunchScreen.storyboard */,
