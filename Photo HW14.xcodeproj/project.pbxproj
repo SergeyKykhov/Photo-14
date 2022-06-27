@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BF625D95286A29F9008BDE68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF625D94286A29F9008BDE68 /* AppDelegate.swift */; };
-		BF625D97286A29F9008BDE68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF625D96286A29F9008BDE68 /* SceneDelegate.swift */; };
 		BF625D99286A29F9008BDE68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF625D98286A29F9008BDE68 /* ViewController.swift */; };
 		BF625D9C286A29F9008BDE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF625D9A286A29F9008BDE68 /* Main.storyboard */; };
 		BF625D9E286A29FE008BDE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF625D9D286A29FE008BDE68 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		BF625D91286A29F9008BDE68 /* Photo HW14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo HW14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF625D94286A29F9008BDE68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF625D96286A29F9008BDE68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF625D98286A29F9008BDE68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF625D9B286A29F9008BDE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF625D9D286A29FE008BDE68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,15 +54,38 @@
 		BF625D93286A29F9008BDE68 /* Photo HW14 */ = {
 			isa = PBXGroup;
 			children = (
-				BF625D94286A29F9008BDE68 /* AppDelegate.swift */,
-				BF625D96286A29F9008BDE68 /* SceneDelegate.swift */,
-				BF625D98286A29F9008BDE68 /* ViewController.swift */,
+				BF625DAA286A2D2C008BDE68 /* Controller */,
+				BF625DA9286A2D26008BDE68 /* View */,
+				BF625DA8286A2D1E008BDE68 /* Model */,
 				BF625D9A286A29F9008BDE68 /* Main.storyboard */,
 				BF625D9D286A29FE008BDE68 /* Assets.xcassets */,
 				BF625D9F286A29FE008BDE68 /* LaunchScreen.storyboard */,
 				BF625DA2286A29FE008BDE68 /* Info.plist */,
 			);
 			path = "Photo HW14";
+			sourceTree = "<group>";
+		};
+		BF625DA8286A2D1E008BDE68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF625DA9286A2D26008BDE68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF625DAA286A2D2C008BDE68 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF625D94286A29F9008BDE68 /* AppDelegate.swift */,
+				BF625D98286A29F9008BDE68 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +161,6 @@
 			files = (
 				BF625D99286A29F9008BDE68 /* ViewController.swift in Sources */,
 				BF625D95286A29F9008BDE68 /* AppDelegate.swift in Sources */,
-				BF625D97286A29F9008BDE68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +324,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +352,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
